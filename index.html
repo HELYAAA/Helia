@@ -1,15 +1,63 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Revamp UI Interfaces</title>
-    </head>
-
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Composition Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .dashboard { display: flex; justify-content: space-between; }
+        .view { padding: 20px; border: 1px solid #ddd; border-radius: 5px; width: 45%; }
+        h2 { color: #333; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="view">
+            <h2>Admin View</h2>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>TypeScript</td>
+                    <td>85.3%</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>14.6%</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>0.1%</td>
+                </tr>
+            </table>
+        </div>
+        <div class="view">
+            <h2>Customer View</h2>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>TypeScript</td>
+                    <td>85.3%</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>14.6%</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>0.1%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
